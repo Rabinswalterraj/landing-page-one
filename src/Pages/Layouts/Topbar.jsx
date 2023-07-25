@@ -22,7 +22,7 @@ function Topbar() {
   return (
     <>
     
-     <header className=' py-5 select-none'>
+     <header className=' py-5 select-none sticky top-0 bg-white/90 backdrop-blur-sm'>
           <div className='flex justify-between items-center'>
             <h1 className='text-xl font-extrabold'>Logo .</h1>
             <ul className='hidden sm:hidden lg:flex md:flex xl:flex  gap-[20px] '>
